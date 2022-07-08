@@ -99,15 +99,26 @@ section#curiosidades {
 }
 
 section#curiosidades > h1 {
+  margin: 0px;
   color: #266501;
   padding: 8px;
 }
 
 section#video {
-  margin: 0px;
-  padding: 0px;
+  margin: 20px;
+  padding: 30px;
   background-image: linear-gradient(to bottom, #c4434a, #d89296);
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.219);
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+iframe {
+  display: block;
+  margin: auto;
 }
 
 .noindent {
