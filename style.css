@@ -51,6 +51,12 @@ a:hover {
   border-radius: 4px;
 }
 
+a#github:hover {
+  text-decoration: underline;
+  background-color: #86223a;
+  border-radius: 4px;
+}
+
 h1 {
   font-size: 2em;
   color: #07234c;
@@ -80,28 +86,27 @@ footer > p {
   color: #d897a7;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 p {
-  text-indent: 10px;
   padding: 5px;
   color: #24313d;
   text-align: justify;
 }
 
-section#curiosidades {
+aside {
   background-color: #a4e180;
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.404);
   color: #418916;
   border-radius: 5px;
   margin: auto;
   width: 90%;
+  padding: 3px;
 }
 
-section#curiosidades > h1 {
-  margin: 0px;
+aside > h1 {
   color: #266501;
-  padding: 8px;
 }
 
 section#video {
